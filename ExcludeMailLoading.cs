@@ -43,6 +43,14 @@ namespace ExcludeMail
                     // check for new or loaded game
                     if (mode == LoadMode.NewGame || mode == LoadMode.NewGameFromScenario || mode == LoadMode.LoadGame)
                     {
+                        // display warning message
+                        ExceptionPanel panel = UIView.library.ShowModal<ExceptionPanel>("ExceptionPanel");
+                        panel.SetMessage(
+                            "Exclude Mail",
+                            "The Exclude Mail mod is deprecated and will be deleted from the Steam workshop." + Environment.NewLine + Environment.NewLine +
+                            "Please use the Enhanced Outside Connections View mod instead.",
+                            true);
+
                         // initialize Harmony
                         ExcludeMail.harmony = HarmonyInstance.Create("com.github.rcav8tr.ExcludeMail");
                         if (ExcludeMail.harmony == null)

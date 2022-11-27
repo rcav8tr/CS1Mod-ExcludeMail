@@ -1,0 +1,34 @@
+This mod is deprecated and will be deleted from the workshop.  See instead my [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2368396560]Enhanced Outside Connections View[/url] mod.
+
+Optionally exclude mail from the Outside Connections info view.
+
+[h1]Detailed Description[/h1]
+The Outside Connections info view displays import and export data for resources, goods, and mail.  The amount of mail being imported or exported can be much greater than the amount of resources and goods.  The relatively large amount of mail makes it difficult to see the amount of resources and goods.
+
+This mod introduces an Include Mail check box on the Outside Connections info view.  The same check box applies to both the Import and Export tabs.  Changing the check box on one tab will have the same effect on the other tab.  Check or uncheck the check box to include or exclude mail.  The check box is checked by default.
+
+When mail is included:[list]
+[*]Amount of mail is included in the pie chart and total.
+[*]The post buildings and mail vehicles from outside connections are shown normally.[/list]
+
+When mail is excluded:[list]
+[*]Amount of mail is excluded from the pie chart and total.
+[*]The post buildings and mail vehicles from outside connections are shown in neutral color.[/list]
+
+[h1]Compatibility[/h1]
+This mod does not alter game save files in any way and can be safely disabled or unsubscribed at any time.
+
+This mod does not alter the game mechanics in any way.  This mod only changes the way information already in the game is displayed on the Outside Connections info view.
+
+This mod has been tested only on Windows but should work on Mac and Linux.
+
+Industries DLC is required to work with mail.  Having the this mod enabled without Industries DLC will not cause an error in the mod, but the functionality of the mod will not be available.
+
+[h1]Source Code[/h1]
+Available [url=https://github.com/rcav8tr/ExcludeMail]here[/url].
+Change notes [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2093019121]here[/url].
+
+[h1]Acknowledgments[/h1]
+This mod uses [url=https://github.com/pardeike/Harmony/wiki]Harmony Library[/url] (version 1.2.0.1) by [url=https://github.com/pardeike]Andreas Pardeike[/url].
+
+The development of this mod relied on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=450877484]ModTools[/url] mod by [url=https://steamcommunity.com/id/bloody_penguin/myworkshopfiles/?appid=255710]BloodyPenguin[/url] to view the internal workings of the program.
