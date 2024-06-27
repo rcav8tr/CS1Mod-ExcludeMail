@@ -25,7 +25,7 @@ This mod has been tested only on Windows but should work on Mac and Linux.
 Industries DLC is required to work with mail.  Having the this mod enabled without Industries DLC will not cause an error in the mod, but the functionality of the mod will not be available.
 
 [h1]Source Code[/h1]
-Available [url=https://github.com/rcav8tr/CS1-ExcludeMail]here[/url].
+Available [url=https://github.com/rcav8tr/CS1Mod-ExcludeMail]here[/url].
 Change notes [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2093019121]here[/url].
 
 [h1]Acknowledgments[/h1]
